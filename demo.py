@@ -4,12 +4,12 @@ x=13
 y=23
 
    # choose the greater number
-   if x > y:
+    if x > y:
        greater = x
-   else:
+    else:
        greater = y
 
-   while(True):
+    while(True):
        if((greater % x == 0) and (greater % y == 0)):
            lcm = greater
            break
